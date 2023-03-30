@@ -20,5 +20,4 @@ class RiscvGccBinAT12 < Formula
   test do
     system "true"
   end
-
 end
