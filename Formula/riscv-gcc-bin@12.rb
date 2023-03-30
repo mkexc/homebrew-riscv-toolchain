@@ -9,7 +9,7 @@ class RiscvGccBinAT12 < Formula
 
   bottle do
     root_url "https://github.com/mkexc/homebrew-riscv-toolchain/releases/download/v12.2.0-amd64"
-    sha256 cellar: :any_skip_relocation, ventura: "01836c5cfb5c847decaad00c620cd29d83eb299006bd86f3bf1d1b55ccb96f76"
+    sha256 cellar: :any_skip_relocation, ventura: "6402e8e1f7ac3bfd278e7e45094d95971fdb1cf46fad6c79de03e26135f299f8"
   end
 
   def install
