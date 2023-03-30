@@ -1,5 +1,5 @@
 class RiscvGccBinAT12 < Formula
-  desc "Pre-built GNU toolchain for RISC-V embedded processors"
+  desc "Pre-built RISC-V GNU toolchain for AMD64 macOS"
   homepage "https://github.com/riscv-collab/riscv-gnu-toolchain"
   url "https://github.com/riscv-collab/riscv-gnu-toolchain/archive/refs/tags/2023.03.14.tar.gz"
   version "2023.03.14-nightly"
