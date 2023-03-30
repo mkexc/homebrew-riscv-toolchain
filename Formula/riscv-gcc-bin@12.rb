@@ -9,16 +9,16 @@ class RiscvGccBinAT12 < Formula
 
   bottle do
     root_url "https://github.com/mkexc/homebrew-riscv-toolchain/releases/download/v12.2.0-amd64"
-    sha256 cellar: :any_skip_relocation, ventura:  "01836c5cfb5c847decaad00c620cd29d83eb299006bd86f3bf1d1b55ccb96f76"
+    sha256 cellar: :any_skip_relocation, ventura: "01836c5cfb5c847decaad00c620cd29d83eb299006bd86f3bf1d1b55ccb96f76"
   end
 
   def install
-      bin.install Dir["bin/*"]
-      prefix.install Dir["riscv64-unknown-elf", "include", "lib", "libexec", "share"]
+    bin.install Dir["bin/*"]
+    prefix.install Dir["riscv64-unknown-elf", "include", "lib", "libexec", "share"]
   end
-  
+
   test do
-      system "true"
+    system "true"
   end
-  
+
 end
